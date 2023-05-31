@@ -1,22 +1,31 @@
-# 《Redis 4.x Cookbook》Learning Notes
+# 《Functional JavaScript》Learning Notes
 
 
 
 ## 1. Profiles
 
-![Redis 4.x Cookbook](assets/cover.png)
+![book cover](assets/cover.png)
 
-|    **Title**    | **Redis 4.x Cookbook** [ISBN: 9781783988167] |
-| :-------------: | :----------------------------------------------------------: |
-|   **Author**    |               **Pengcheng Huang, Zuofei Wang**               |
-| **Publication** |                      **Packt, 2018.2**                       |
-|    **Pages**    |                           **374**                            |
+|    **Title**    | Functional JavaScript [ISBN: 9781449360726] |
+| :-------------: | :-----------------------------------------: |
+|   **Author**    |              **Michael Fogus**              |
+| **Publication** |         **O'Reilly Media, 2013.5**          |
+|    **Pages**    |                   **260**                   |
 
 > **Introduction**
 >
-> Redis is considered the world's most popular key-value store database. Its versatility and the wide variety of use cases it enables have made it a popular choice of database for many enterprises. Based on the latest version of Redis, this book provides both step-by-step recipes and relevant the background information required to utilize its features to the fullest. It covers everything from a basic understanding of Redis data types to advanced aspects of Redis high availability, clustering, administration, and troubleshooting. This book will be your great companion to master all aspects of Redis.
+> How can you overcome JavaScript language oddities and unsafe features? With this book, you’ll learn how to create code that’s beautiful, safe, and simple to understand and test by using JavaScript’s functional programming support. Author *Michael Fogus* shows you how to apply functional-style concepts with `Underscore.js`, a JavaScript library that facilitates functional programming techniques. Sample code is available on GitHub at https://github.com/funjs/book-source.
 >
-> The book starts off by installing and configuring Redis for you to get started with ease. Moving on, all the data types and features of Redis are introduced in detail. Next, you will learn how to develop applications with Redis in Java, Python, and the Spring Boot web framework. You will also learn replication tasks, which will help you to troubleshoot replication issues. Furthermore, you will learn the steps that need to be undertaken to ensure high availability on your cluster and during production deployment. Toward the end of the book, you will learn the topmost tasks that will help you to troubleshoot your ecosystem efficiently, along with extending Redis by using different modules.
+> *Fogus* helps you think in a functional way to help you minimize complexity in the programs you build. If you’re a JavaScript programmer hoping to learn functional programming techniques, or a functional programmer looking to learn JavaScript, this book is the ideal introduction.
+>
+> - Use applicative programming techniques with first-class functions
+> - Understand how and why you might leverage variable scoping and closures
+> - Delve into higher-order functions -- and learn how they take other functions as arguments for maximum advantage
+> - Explore ways to compose new functions from existing functions
+> - Get around JavaScript’s limitations for using recursive functions
+> - Reduce, hide, or eliminate the footprint of state change in your programs
+> - Practice flow-based programming with chains and functional pipelines
+> - Discover how to code without using classes
 
 
 
@@ -24,19 +33,25 @@
 
 Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Working) | :no_entry: (Not Started) | :orange_book: (Finish reading)
 
-| No.  |        Chapter Title        |          Status          |
-| :--: | :-------------------------: | :----------------------: |
-| Ch01 | [Chapter Title1](./Ch01.md) |    :heavy_check_mark:    |
-| Ch02 | [Chapter Title2](./Ch02.md) | :hourglass_flowing_sand: |
-| Ch03 | [Chapter Title3](./Ch03.md) |        :no_entry:        |
+| No.  |                       Chapter Title                        |          Status          |
+| :--: | :--------------------------------------------------------: | :----------------------: |
+| Ch01 |       [Introducing Functional JavaScript](./Ch01.md)       | :hourglass_flowing_sand: |
+| Ch02 |     [First-Class Functions and Applicative](./Ch02.md)     |        :no_entry:        |
+| Ch03 |          [Variable Scope and Closures](./Ch03.md)          |        :no_entry:        |
+| Ch04 |            [Higher-Order Functions](./Ch04.md)             |        :no_entry:        |
+| Ch05 |          [Function-Building Functions](./Ch05.md)          |        :no_entry:        |
+| Ch06 |                   [Recursion](./Ch06.md)                   |        :no_entry:        |
+| Ch07 | [Purity, Immutability, and Policies for Change](./Ch07.md) |        :no_entry:        |
+| Ch08 |            [Flow-Based Programming](./Ch08.md)             |        :no_entry:        |
+| Ch09 |           [Programming Without Class](./Ch09.md)           |        :no_entry:        |
 
 
 
 Powershell script for generating markdown files in batch:
 
 ```powershell
-# Create 13 empty markdown files named Ch##.md:
-for($i=1; $i -le 13; $i=$i+1){ New-Item -Name "Ch$('{0:d2}' -f $i).md"; }
+# Create 9 empty markdown files named Ch##.md:
+for($i=1; $i -le 9; $i=$i+1){ New-Item -Name "Ch$('{0:d2}' -f $i).md"; }
 ```
 
  

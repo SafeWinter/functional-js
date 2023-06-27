@@ -35,15 +35,15 @@ Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Wo
 
 | No.  |                       Chapter Title                        |          Status          |
 | :--: | :--------------------------------------------------------: | :----------------------: |
-| Ch01 |       [Introducing Functional JavaScript](./Ch01.md)       | :hourglass_flowing_sand: |
-| Ch02 |     [First-Class Functions and Applicative](./Ch02.md)     |        :no_entry:        |
-| Ch03 |          [Variable Scope and Closures](./Ch03.md)          |        :no_entry:        |
-| Ch04 |            [Higher-Order Functions](./Ch04.md)             |        :no_entry:        |
-| Ch05 |          [Function-Building Functions](./Ch05.md)          |        :no_entry:        |
-| Ch06 |                   [Recursion](./Ch06.md)                   |        :no_entry:        |
-| Ch07 | [Purity, Immutability, and Policies for Change](./Ch07.md) |        :no_entry:        |
-| Ch08 |            [Flow-Based Programming](./Ch08.md)             |        :no_entry:        |
-| Ch09 |           [Programming Without Class](./Ch09.md)           |        :no_entry:        |
+| Ch01 |       [Introducing Functional JavaScript](./Ch01.md)       |    :heavy_check_mark:    |
+| Ch02 |     [First-Class Functions and Applicative](./Ch02.md)     |    :heavy_check_mark:    |
+| Ch03 |          [Variable Scope and Closures](./Ch03.md)          |    :heavy_check_mark:    |
+| Ch04 |            [Higher-Order Functions](./Ch04.md)             |    :heavy_check_mark:    |
+| Ch05 |          [Function-Building Functions](./Ch05.md)          |    :heavy_check_mark:    |
+| Ch06 |                   [Recursion](./Ch06.md)                   |    :heavy_check_mark:    |
+| Ch07 | [Purity, Immutability, and Policies for Change](./Ch07.md) |    :heavy_check_mark:    |
+| Ch08 |            [Flow-Based Programming](./Ch08.md)             |    :heavy_check_mark:    |
+| Ch09 |           [Programming Without Class](./Ch09.md)           |    :heavy_check_mark:    |
 
 
 
